@@ -1,3 +1,6 @@
 C:\Users\snifle\source\repos\Assignment_1_Comp2068\obj\Debug\Assignment_1_Comp2068.njsprojAssemblyReference.cache
 C:\Users\snifle\source\repos\Assignment_1_Comp2068\obj\Debug\Assignment_1_Comp2068.njsproj.CoreCompileInputs.cache
 C:\Users\snifle\source\repos\Assignment_1_Comp2068\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\snifle\Documents\GitHub\ExpressJSPortfolio_Comp2068\Assignment_1_Comp2068\obj\Debug\Assignment_1_Comp2068.njsprojAssemblyReference.cache
+C:\Users\snifle\Documents\GitHub\ExpressJSPortfolio_Comp2068\Assignment_1_Comp2068\obj\Debug\Assignment_1_Comp2068.njsproj.CoreCompileInputs.cache
+C:\Users\snifle\Documents\GitHub\ExpressJSPortfolio_Comp2068\Assignment_1_Comp2068\bin\Microsoft.NodejsTools.WebRole.dll
