@@ -1,3 +1,8 @@
+// app.js
+// Made by Ambuj Bhog
+// My Portfolio
+
+
 'use strict';
 var debug = require('debug');
 var express = require('express');
@@ -6,6 +11,26 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+
+
+const MongoClient = require('mongodb').MongoClient;
+//code bellow is connection to my mongodb 
+const uri = "mongodb+srv://root:123@cluster0.z9vbe.mongodb.net/<dbname>?retryWrites=true&w=majority";
+
+
+try {
+    mongoose.connect(uri, { useNewUrlParser: true });
+    var db = mongoose.connection;
+    db.on('error', function (err) {
+        console.log(err);
+    });
+    db.once('open', function (callback) {
+        console.log('Connected to MongoDB');
+    });
+} catch (err) {
+    console.log("Error : " + err);
+}
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
