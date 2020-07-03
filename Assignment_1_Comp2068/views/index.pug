@@ -1,5 +1,12 @@
-extends layout
+extends ../views/partials/header
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+      h1= title
+
+      p This is my JavaSript project. Click on the links above to read more. 
+  
+      p My header and footer are dynamically included to each page (using require and include)
+
+      include ../views/partials/footer
+

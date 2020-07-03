@@ -54,7 +54,6 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
     <Content Include="views\error.pug" />
     <Content Include="views\partials\footer.pug">
       <SubType>Code</SubType>
